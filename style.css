@@ -1,10 +1,10 @@
-style.css
+ MVP
 /* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* BODY */
@@ -29,6 +29,8 @@ header h1 {
 
 header p {
   font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* MAIN */
@@ -39,7 +41,7 @@ main {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 h2 {
@@ -54,9 +56,13 @@ ul {
 /* CTA */
 .cta {
   background-color: #e0f2ef;
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 8px;
   text-align: center;
+}
+
+.cta p {
+  margin-bottom: 1rem;
 }
 
 .btn {
@@ -75,12 +81,23 @@ ul {
   opacity: 0.85;
 }
 
+/* BOTÃO SECUNDÁRIO */
+.btn.secondary {
+  background-color: #4faea3;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  opacity: 0.85;
+}
+
 /* FOOTER */
 footer {
-  background-color: #ddd;
+  background-color: #cfcfcf;
   text-align: center;
-  padding: 1rem;
+  padding: 1.2rem;
   font-size: 0.9rem;
+  color: #333;
 }
 
 /* RESPONSIVO */
@@ -92,5 +109,8 @@ footer {
   .btn {
     width: 90%;
   }
+
+  .cta {
+    padding: 2rem 1rem;
+  }
 }
-Restaura e organiza estilo CSS do MVP
