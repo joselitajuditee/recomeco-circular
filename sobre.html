@@ -18,6 +18,7 @@
     </p>
   </header>
 
+  <!-- MAIN -->
   <main>
 
     <section class="section">
@@ -49,10 +50,6 @@
 
     <section class="section">
       <h2>♻️ Sustentabilidade e impacto</h2>
-      <p>
-        Cada item reutilizado representa menos descarte no meio ambiente
-        e mais dignidade para quem recebe.
-      </p>
       <ul>
         <li>🌱 Redução do descarte inadequado</li>
         <li>🏠 Apoio a famílias em situação de vulnerabilidade</li>
@@ -63,11 +60,6 @@
 
     <section class="cta" aria-label="Chamada para ação">
       <h2>💚 Faça parte do Recomeço</h2>
-      <p>
-        Seja doando, recebendo ou apoiando, você pode fazer parte dessa rede
-        de transformação social.
-      </p>
-
       <div class="cta-buttons">
         <button class="btn" id="btnDoar">Quero Doar</button>
         <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
@@ -83,25 +75,24 @@
     <p>Idealizado por Joselita Juditee</p>
   </footer>
 
-  <!-- MODAL DOAR -->
+  <!-- MODAIS -->
   <div id="modalDoar" class="modal">
     <div class="modal-content">
       <span class="close" id="closeDoar">&times;</span>
       <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_DOAR/viewform?embedded=true"
-              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+              width="100%" height="600" frameborder="0">Carregando…</iframe>
     </div>
   </div>
 
-  <!-- MODAL AJUDA -->
   <div id="modalAjuda" class="modal">
     <div class="modal-content">
       <span class="close" id="closeAjuda">&times;</span>
       <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_AJUDA/viewform?embedded=true"
-              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+              width="100%" height="600" frameborder="0">Carregando…</iframe>
     </div>
   </div>
 
-  <!-- JAVASCRIPT PARA MODAIS -->
+  <!-- JAVASCRIPT MODAIS -->
   <script>
     const modalDoar = document.getElementById('modalDoar');
     const modalAjuda = document.getElementById('modalAjuda');
@@ -116,7 +107,7 @@
     closeDoar.onclick = () => modalDoar.style.display = 'none';
     closeAjuda.onclick = () => modalAjuda.style.display = 'none';
 
-    window.onclick = function(event) {
+    window.onclick = (event) => {
       if (event.target == modalDoar) modalDoar.style.display = "none";
       if (event.target == modalAjuda) modalAjuda.style.display = "none";
     }
@@ -124,3 +115,4 @@
 
 </body>
 </html>
+
