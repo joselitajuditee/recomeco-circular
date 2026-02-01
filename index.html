@@ -1,102 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recomeço Circular — Impacto Social e Sustentabilidade</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+<section class="cta">
+  <h2>💚 Faça parte do Recomeço</h2>
+  <p>Se você pode doar ou precisa de ajuda, participe desta rede de transformação social.</p>
+  <button class="btn" id="btnDoar">Quero Doar</button>
+  <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
+  <a href="sobre.html" class="btn">Saiba Mais</a>
+</section>
 
-<body>
-
-  <header>
-    <h1>Recomeço Circular</h1>
-    <p>
-      Transformando descarte em dignidade.<br>
-      Conectando quem pode doar a quem precisa recomeçar.
-    </p>
-  </header>
-
-  <main>
-
-    <section>
-      <h2>🌱 O desafio que queremos resolver</h2>
-      <p>
-        Todos os dias, móveis, eletrodomésticos e utensílios domésticos em bom estado
-        são descartados de forma inadequada. Ao mesmo tempo, milhares de famílias
-        em situação de vulnerabilidade social precisam recomeçar do zero, sem acesso
-        ao básico para viver com dignidade.
-      </p>
-    </section>
-
-    <section>
-      <h2>♻️ Nossa solução</h2>
-      <p>
-        O <strong>Recomeço Circular</strong> conecta doadores, pessoas em vulnerabilidade
-        e órgãos públicos, viabilizando coleta, triagem e redistribuição consciente
-        de bens reutilizáveis.
-      </p>
-    </section>
-
-    <section>
-      <h2>🤝 Como funciona na prática</h2>
-      <ul>
-        <li>📋 Cadastro de pessoas e empresas doadoras</li>
-        <li>🏠 Cadastro de famílias que precisam de apoio</li>
-        <li>🚚 Parcerias com órgãos públicos e voluntários para coleta e entrega</li>
-        <li>🌍 Impacto social, ambiental e econômico</li>
-      </ul>
-    </section>
-
-    <section class="cta">
-      <h2>💚 Faça parte do Recomeço</h2>
-      <p>Se você pode doar ou precisa de ajuda, participe desta rede de transformação social.</p>
-      <button class="btn" id="btnDoar">Quero Doar</button>
-      <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
-      <a href="sobre.html" class="btn">Saiba Mais</a>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Projeto em construção • MVP social • Tecnologia com propósito</p>
-    <p>Idealizado por Joselita Juditee</p>
-  </footer>
-
-  <!-- MODAIS -->
-  <div id="modalDoar" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeDoar">&times;</span>
-      <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_DOAR/viewform?embedded=true">Carregando…</iframe>
-    </div>
+<!-- MODAIS -->
+<div id="modalDoar" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeDoar">&times;</span>
+    <iframe src="https://docs.google.com/forms/d/e/vEjk6Q6gifN7ns6e8/viewform?embedded=true" width="100%" height="500">Carregando…</iframe>
   </div>
+</div>
 
-  <div id="modalAjuda" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeAjuda">&times;</span>
-      <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_AJUDA/viewform?embedded=true">Carregando…</iframe>
-    </div>
+<div id="modalAjuda" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeAjuda">&times;</span>
+    <iframe src="https://docs.google.com/forms/d/e/EfjveBQfuZVxPJb68/viewform?embedded=true" width="100%" height="500">Carregando…</iframe>
   </div>
-
-  <script>
-    const modalDoar = document.getElementById('modalDoar');
-    const modalAjuda = document.getElementById('modalAjuda');
-    const btnDoar = document.getElementById('btnDoar');
-    const btnAjuda = document.getElementById('btnAjuda');
-    const closeDoar = document.getElementById('closeDoar');
-    const closeAjuda = document.getElementById('closeAjuda');
-
-    btnDoar.onclick = () => modalDoar.style.display = 'block';
-    btnAjuda.onclick = () => modalAjuda.style.display = 'block';
-
-    closeDoar.onclick = () => modalDoar.style.display = 'none';
-    closeAjuda.onclick = () => modalAjuda.style.display = 'none';
-
-    window.onclick = (event) => {
-      if (event.target == modalDoar) modalDoar.style.display = 'none';
-      if (event.target == modalAjuda) modalAjuda.style.display = 'none';
-    }
-  </script>
-
-</body>
-</html>
+</div>
