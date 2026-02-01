@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Recomeço Circular — Impacto Social e Sustentabilidade</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -34,28 +34,33 @@
     <section>
       <h2>♻️ Nossa solução</h2>
       <p>
-        O <strong>Recomeço Circular</strong> conecta doadores, famílias em vulnerabilidade
-        e órgãos públicos para coleta, triagem e redistribuição de bens reutilizáveis.
+        O <strong>Recomeço Circular</strong> conecta doadores, pessoas em vulnerabilidade
+        e órgãos públicos, viabilizando coleta, triagem e redistribuição consciente
+        de bens reutilizáveis.
+      </p>
+      <p>
+        Sustentabilidade, engenharia reversa e inovação social reduzem o descarte indevido
+        e promovem dignidade humana.
       </p>
     </section>
 
     <section>
-      <h2>🤝 Como funciona</h2>
+      <h2>🤝 Como funciona na prática</h2>
       <ul>
-        <li>📋 Cadastro simples de doadores</li>
-        <li>🏠 Cadastro de famílias interessadas</li>
-        <li>🚚 Parcerias com órgãos públicos e voluntários</li>
-        <li>🌍 Impacto social, ambiental e humano</li>
+        <li>📋 Cadastro de pessoas e empresas doadoras</li>
+        <li>🏠 Cadastro de famílias que precisam de apoio</li>
+        <li>🚚 Parcerias com órgãos públicos e voluntários para coleta e entrega</li>
+        <li>🌍 Impacto social, ambiental e econômico</li>
       </ul>
     </section>
 
-    <section class="cta" aria-label="Chamada para ação">
+    <section class="cta">
       <h2>💚 Faça parte do Recomeço</h2>
-      <div class="cta-buttons">
-        <button class="btn" id="btnDoar">Quero Doar</button>
-        <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
-        <a href="sobre.html" class="btn">Saiba Mais</a>
-      </div>
+      <p>Se você pode doar ou precisa de ajuda, participe desta rede de transformação social.</p>
+
+      <button class="btn" id="btnDoar">Quero Doar</button>
+      <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
+      <a href="sobre.html" class="btn">Saiba Mais</a>
     </section>
 
   </main>
@@ -83,7 +88,7 @@
     </div>
   </div>
 
-  <!-- JAVASCRIPT MODAIS -->
+  <!-- SCRIPT MODAIS -->
   <script>
     const modalDoar = document.getElementById('modalDoar');
     const modalAjuda = document.getElementById('modalAjuda');
@@ -99,11 +104,10 @@
     closeAjuda.onclick = () => modalAjuda.style.display = 'none';
 
     window.onclick = (event) => {
-      if (event.target == modalDoar) modalDoar.style.display = "none";
-      if (event.target == modalAjuda) modalAjuda.style.display = "none";
+      if (event.target == modalDoar) modalDoar.style.display = 'none';
+      if (event.target == modalAjuda) modalAjuda.style.display = 'none';
     }
   </script>
 
 </body>
 </html>
-
