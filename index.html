@@ -18,6 +18,7 @@
     </p>
   </header>
 
+  <!-- MAIN -->
   <main>
 
     <section>
@@ -33,38 +34,27 @@
     <section>
       <h2>♻️ Nossa solução</h2>
       <p>
-        O <strong>Recomeço Circular</strong> é uma iniciativa de impacto social que
-        utiliza tecnologia para conectar doadores, pessoas em situação de vulnerabilidade
-        e órgãos públicos, viabilizando a coleta, triagem e redistribuição consciente
-        de bens reutilizáveis.
-      </p>
-      <p>
-        O projeto une sustentabilidade, engenharia reversa e inovação social para
-        reduzir o descarte indevido, gerar impacto ambiental positivo e promover
-        dignidade humana.
+        O <strong>Recomeço Circular</strong> conecta doadores, famílias em vulnerabilidade
+        e órgãos públicos para coleta, triagem e redistribuição de bens reutilizáveis.
       </p>
     </section>
 
     <section>
-      <h2>🤝 Como funciona na prática</h2>
+      <h2>🤝 Como funciona</h2>
       <ul>
-        <li>📋 Cadastro simples de pessoas e empresas doadoras</li>
-        <li>🏠 Cadastro de famílias e pessoas que precisam de apoio</li>
-        <li>🚚 Parcerias com órgãos públicos, cooperativas e voluntários para coleta e entrega</li>
-        <li>🌍 Geração de impacto social, ambiental e econômico sustentável</li>
+        <li>📋 Cadastro simples de doadores</li>
+        <li>🏠 Cadastro de famílias interessadas</li>
+        <li>🚚 Parcerias com órgãos públicos e voluntários</li>
+        <li>🌍 Impacto social, ambiental e humano</li>
       </ul>
     </section>
 
     <section class="cta" aria-label="Chamada para ação">
       <h2>💚 Faça parte do Recomeço</h2>
-      <p>
-        Seja doando, recebendo ou apoiando, você pode fazer parte dessa rede
-        de transformação social.
-      </p>
-
       <div class="cta-buttons">
         <button class="btn" id="btnDoar">Quero Doar</button>
         <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
+        <a href="sobre.html" class="btn">Saiba Mais</a>
       </div>
     </section>
 
@@ -76,25 +66,24 @@
     <p>Idealizado por Joselita Juditee</p>
   </footer>
 
-  <!-- MODAL DOAR -->
+  <!-- MODAIS -->
   <div id="modalDoar" class="modal">
     <div class="modal-content">
       <span class="close" id="closeDoar">&times;</span>
       <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_DOAR/viewform?embedded=true"
-              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+              width="100%" height="600" frameborder="0">Carregando…</iframe>
     </div>
   </div>
 
-  <!-- MODAL AJUDA -->
   <div id="modalAjuda" class="modal">
     <div class="modal-content">
       <span class="close" id="closeAjuda">&times;</span>
       <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_AJUDA/viewform?embedded=true"
-              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+              width="100%" height="600" frameborder="0">Carregando…</iframe>
     </div>
   </div>
 
-  <!-- JAVASCRIPT PARA MODAIS -->
+  <!-- JAVASCRIPT MODAIS -->
   <script>
     const modalDoar = document.getElementById('modalDoar');
     const modalAjuda = document.getElementById('modalAjuda');
@@ -109,7 +98,7 @@
     closeDoar.onclick = () => modalDoar.style.display = 'none';
     closeAjuda.onclick = () => modalAjuda.style.display = 'none';
 
-    window.onclick = function(event) {
+    window.onclick = (event) => {
       if (event.target == modalDoar) modalDoar.style.display = "none";
       if (event.target == modalAjuda) modalAjuda.style.display = "none";
     }
@@ -117,3 +106,4 @@
 
 </body>
 </html>
+
