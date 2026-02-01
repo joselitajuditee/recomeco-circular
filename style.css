@@ -15,6 +15,7 @@ body {
   background-color: #f4f7f6;
   color: #333;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* =====================
@@ -25,6 +26,7 @@ header {
   color: #fff;
   text-align: center;
   padding: 2.5rem 1rem;
+  animation: fadeIn 1s ease-out;
 }
 
 header h1 {
@@ -47,6 +49,7 @@ main {
 
 .section {
   margin-bottom: 2rem;
+  animation: fadeInUp 1s ease-out;
 }
 
 h2 {
@@ -72,6 +75,7 @@ ul li {
   padding: 2rem;
   border-radius: 8px;
   text-align: center;
+  animation: fadeIn 1s ease-out;
 }
 
 .cta p {
@@ -93,11 +97,13 @@ ul li {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
-  transition: 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  opacity: 0.85;
+  opacity: 1;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* =====================
@@ -109,6 +115,20 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   margin-top: 2rem;
+  animation: fadeIn 1s ease-out;
+}
+
+/* =====================
+   ANIMAÇÕES
+===================== */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 /* =====================
