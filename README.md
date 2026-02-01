@@ -1,58 +1,93 @@
-# Recomeço Circular 🌱💻
+# ♻️ Recomeço Circular
 
-Plataforma digital de impacto social e ambiental voltada à coleta e redistribuição sustentável de móveis, eletrodomésticos e utensílios domésticos, promovendo recomeços com dignidade.
+**Recomeço Circular** é um projeto de impacto social que utiliza tecnologia
+para transformar descarte em dignidade, conectando doadores, famílias em
+situação de vulnerabilidade social e órgãos públicos.
 
----
-
-## 👋 Sobre Mim
-
-Sou empreendedora, formada em Administração, em transição de carreira para Tecnologia, com foco em inovação, impacto social e sustentabilidade.  
-
-Atualmente estou desenvolvendo projetos que unem **tecnologia e propósito**, utilizando programação para resolver problemas reais da sociedade, especialmente em economia circular e inclusão social.
-
-Sou idealizadora do **Recomeço Circular**, que conecta doadores, famílias em vulnerabilidade social e parceiros públicos através de uma plataforma digital.
-
-🌱 Mulher em tech | 💻 Aprendendo na prática | 🤝 Inovação com propósito
+O projeto nasce da necessidade de reduzir o descarte inadequado de móveis,
+eletrodomésticos e utensílios domésticos, ao mesmo tempo em que apoia pessoas
+que precisam recomeçar do zero com o mínimo de dignidade.
 
 ---
 
-## 🚧 Projeto em Desenvolvimento — Recomeço Circular
+## 🌱 O Problema
 
-### 🎯 Objetivo do Projeto
-Utilizar tecnologia para conectar doadores, famílias em situação de vulnerabilidade social e parceiros públicos, reduzindo o descarte irregular e ampliando o acesso a bens essenciais.
+Todos os dias, milhares de itens reutilizáveis são descartados de forma
+indevida, gerando impacto ambiental negativo.
 
-### 🧩 Funcionalidades (MVP)
-- Landing page institucional  
-- Formulário de interesse (doadores, beneficiários e parceiros)  
-- Estrutura preparada para futura integração com banco de dados  
-- Base para relatórios de impacto social e ambiental  
-
-### 🛠️ Tecnologias Utilizadas
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-📌 **Status:** MVP em construção  
-🌱 **Foco:** Tecnologia com propósito e impacto social
+Em paralelo, famílias em situação de vulnerabilidade social enfrentam a
+falta de móveis e eletrodomésticos básicos para estruturar seus lares,
+especialmente em momentos de recomeço, como:
+- mudança forçada
+- desemprego
+- situações de emergência social
 
 ---
 
-## 🚀 Próximos Passos
-1. Desenvolver a versão funcional do site (HTML, CSS e JS)  
-2. Implementar formulários com envio de dados para validação de doadores e beneficiários  
-3. Criar base de dados simples para triagem e distribuição  
-4. Documentar resultados e gerar relatórios de impacto para parceiros e possíveis emendas  
+## ♻️ A Solução
+
+O **Recomeço Circular** propõe uma solução simples, escalável e sustentável:
+
+- Conectar pessoas e empresas doadoras
+- Cadastrar famílias e pessoas que precisam de apoio
+- Articular parcerias com órgãos públicos, cooperativas e voluntários
+- Viabilizar coleta, triagem e redistribuição consciente dos itens
+
+Tudo isso com apoio da tecnologia e princípios de sustentabilidade,
+engenharia reversa e inovação social.
 
 ---
 
-## 🤝 Como Contribuir
-Este projeto está aberto a parcerias, ideias e colaborações alinhadas com impacto social e sustentabilidade.  
+## 🤝 Como Funciona
 
-Se você deseja ajudar, entre em contato ou abra uma *issue* neste repositório.
+1. Doadores realizam um cadastro simples informando os itens disponíveis
+2. Pessoas em situação de vulnerabilidade se cadastram solicitando apoio
+3. O projeto articula a logística com parceiros públicos ou voluntários
+4. Os itens são redistribuídos de forma responsável e humana
 
 ---
 
-## 📊 GitHub Stats
-![Joselita's GitHub stats](https://github-readme-stats.vercel.app/api?username=joselitajuditee)
+## 📊 Métricas de Impacto (em construção)
 
+O projeto acompanha métricas simples para mensurar impacto social e ambiental:
+
+- Número de doadores cadastrados
+- Quantidade de famílias atendidas
+- Tipos de itens redistribuídos
+- Regiões/bairros impactados
+- Redução estimada de descarte indevido
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Google Forms (MVP)
+- Git & GitHub
+- GitHub Pages
+
+---
+
+## 🚧 Status do Projeto
+
+🔧 MVP em desenvolvimento  
+🌍 Projeto aberto para parcerias, apoio institucional e evolução técnica
+
+---
+
+## 💚 Visão de Futuro
+
+- Plataforma própria com formulários e dashboard de impacto
+- Integração com órgãos públicos
+- Expansão para múltiplas cidades
+- Geração de relatórios para políticas públicas e sustentabilidade
+
+---
+
+## 👩‍💻 Idealização
+
+Projeto idealizado por **Joselita Juditee**,  
+empreendedora social em transição para tecnologia,  
+com foco em impacto humano, sustentabilidade e inovação social.
 
