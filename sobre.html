@@ -61,16 +61,18 @@
       </ul>
     </section>
 
-    <section class="cta" aria-label="Voltar para a página inicial">
-      <h2>💚 Conheça o projeto</h2>
+    <section class="cta" aria-label="Chamada para ação">
+      <h2>💚 Faça parte do Recomeço</h2>
       <p>
-        Se você chegou até aqui, convidamos você a conhecer
-        a iniciativa e fazer parte dessa transformação.
+        Seja doando, recebendo ou apoiando, você pode fazer parte dessa rede
+        de transformação social.
       </p>
 
-      <a href="index.html" class="btn">
-        Voltar para a página inicial
-      </a>
+      <div class="cta-buttons">
+        <button class="btn" id="btnDoar">Quero Doar</button>
+        <button class="btn secondary" id="btnAjuda">Preciso de Ajuda</button>
+        <a href="index.html" class="btn">Voltar para a página inicial</a>
+      </div>
     </section>
 
   </main>
@@ -80,6 +82,45 @@
     <p>Projeto em construção • MVP social • Tecnologia com propósito</p>
     <p>Idealizado por Joselita Juditee</p>
   </footer>
+
+  <!-- MODAL DOAR -->
+  <div id="modalDoar" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeDoar">&times;</span>
+      <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_DOAR/viewform?embedded=true"
+              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    </div>
+  </div>
+
+  <!-- MODAL AJUDA -->
+  <div id="modalAjuda" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeAjuda">&times;</span>
+      <iframe src="https://docs.google.com/forms/d/e/SEU_FORM_AJUDA/viewform?embedded=true"
+              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT PARA MODAIS -->
+  <script>
+    const modalDoar = document.getElementById('modalDoar');
+    const modalAjuda = document.getElementById('modalAjuda');
+    const btnDoar = document.getElementById('btnDoar');
+    const btnAjuda = document.getElementById('btnAjuda');
+    const closeDoar = document.getElementById('closeDoar');
+    const closeAjuda = document.getElementById('closeAjuda');
+
+    btnDoar.onclick = () => modalDoar.style.display = 'block';
+    btnAjuda.onclick = () => modalAjuda.style.display = 'block';
+
+    closeDoar.onclick = () => modalDoar.style.display = 'none';
+    closeAjuda.onclick = () => modalAjuda.style.display = 'none';
+
+    window.onclick = function(event) {
+      if (event.target == modalDoar) modalDoar.style.display = "none";
+      if (event.target == modalAjuda) modalAjuda.style.display = "none";
+    }
+  </script>
 
 </body>
 </html>
