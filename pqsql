@@ -1,5 +1,8 @@
-recomeco-circular/
-│
-├─ index.html
-├─ sobre.html
-└─ style.css
+/
+├── index.html
+├── sobre.html
+├── css/
+│   └── style.css
+├── assets/
+│   └── imagens (se tiver)
+
